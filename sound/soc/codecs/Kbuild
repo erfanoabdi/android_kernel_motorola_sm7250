@@ -40,7 +40,7 @@ ifdef TFA_DEBUG
 EXTRA_CFLAGS += -DTFA_DEBUG -DDEBUG
 snd_soc_tfa9874-objs += tfa_debug.o
 endif
-obj-m += snd_soc_tfa9874.o
+# obj-m += snd_soc_tfa9874.o
 
 tas2560-objs = tas2560-core.o tas2560-misc.o tas2560-codec.o tas2560-regmap.o
 obj-m += tas2560.o
